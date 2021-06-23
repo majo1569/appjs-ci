@@ -5,7 +5,7 @@ jobs:
   include:
     - stage: unit tests
       script: npm test
-    -stage: deploy
+    - stage: deploy
       script: npm run build 
       deploy: 
         provider: heroku

@@ -1,6 +1,7 @@
 language: node_js
 node_js: 
   - "stable"
+
 jobs:
   include:
     - stage: unit tests
@@ -14,4 +15,5 @@ jobs:
         app: apjs-ci
         on:
             repo: majo1569/appjs-ci
-            
+notifications:
+  slack: naksinc:3gS2KmrT2PJDARWHqAmdK3IC            

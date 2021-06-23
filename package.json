@@ -1,0 +1,19 @@
+{
+  "name": "appjs-ci",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/majo1569/appjs-ci.git"
+  },
+  "author": "majo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/majo1569/appjs-ci/issues"
+  },
+  "homepage": "https://github.com/majo1569/appjs-ci#readme"
+}

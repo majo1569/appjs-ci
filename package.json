@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "star": "node index.js",
     "build": "npm run",
     "test": "mocha"
    

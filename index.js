@@ -5,7 +5,7 @@ var calculator = require('./app/calculator');
 var a = 3;
 var b = 5;
 
-console.log(`Add ${a} + ${b} = ${calculator.add(a,b)}`);
-console.log(`Minus ${a} + ${b} = ${calculator.minus(a,b)}`);
-console.log(`Multiply ${a} + ${b} = ${calculator.multiply(a,b)}`);
-console.log(`Divide ${a} + ${b} = ${calculator.divide(a,b)}`);
+//console.log(`Suma ${a} + ${b} = ${calculator.add(a,b)}`);
+//console.log(`Resta ${a} + ${b} = ${calculator.minus(a,b)}`);
+console.log(`Multiplicacion ${a} + ${b} = ${calculator.multiply(a,b)}`);
+//console.log(`Division ${a} + ${b} = ${calculator.divide(a,b)}`);

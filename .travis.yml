@@ -12,7 +12,7 @@ jobs:
     - stage: unit tests
       script: npm test
     - stage: deploy
-      script: npm run build 
+      script: npm run start
       deploy: 
         provider: heroku
         api_key: b5658fe9-7fa1-431f-bd0f-8a699b2d9e2d

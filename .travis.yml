@@ -1,7 +1,12 @@
 language: node_js
 node_js: 
   - "stable"
-
+jdk:
+  - oraclejdk8
+addons:
+  sonarcloud: true
+script:
+  - sonar-scanner -Dsonar.login=$SONAR_TOKEN -Dsonar.organization=majo1569-github -Dsonar.projectKey=calculator -Dsonar.sources='./app' -X
 jobs:
   include:
     - stage: unit tests

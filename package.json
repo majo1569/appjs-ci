@@ -4,9 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "star": "node index.js",
-    "build": "npm run",
-    "test": "mocha"
+    "start": "node index.js",
+    "test": "mocha",
+    "coverage": "nyc --reporter=text --reporter=lcov npm test",
+    "coveralls": "nyc npm test && nyc report --reporter=text-lcov | coveralls"
    
 
   },
